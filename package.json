@@ -1,0 +1,33 @@
+{
+  "name": "serve-folder",
+  "version": "1.0.0",
+  "description": "Statically serve a folder over http",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "serve-folder": "bin/serve-folder.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mathisonian/serve-folder.git"
+  },
+  "keywords": [
+    "static",
+    "server",
+    "folder",
+    "serve",
+    "folder",
+    "http"
+  ],
+  "author": "Matthew Conlen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathisonian/serve-folder/issues"
+  },
+  "homepage": "https://github.com/mathisonian/serve-folder#readme",
+  "dependencies": {
+    "node-static": "^0.7.7"
+  }
+}
